@@ -1,0 +1,167 @@
+/*https://www.figma.com/file/NLeHPJXuYE08PPmRce9nhP/Shopping-via-mobile-illustration?node-id=0%3A1*/ 
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+    font-weight: 400;
+    color:  #5D5D7D;
+}
+
+div {
+    height: 100vh;
+    width: 100vw;
+}
+
+.bloco-esquerdo {
+    display: inline-block;
+    width: 60%;
+    position: relative;
+    top: 40%;
+    padding-left: 136px;
+}
+
+
+.bloco-direito{
+    display: inline-block;
+    background-color: rgba(93,93,125, 0.16);
+    height: 100vh;
+    width: 40%;
+    position: absolute;
+
+
+}
+
+
+img {
+    position: relative;
+    top: 25%;
+    right: 150px;
+
+
+}
+
+header {
+    width: 376px;
+    height: 41.12px;
+    margin: 24px 0 0 57px;      
+}
+
+.link-header{
+    margin-right: 10px;
+    font-size: 28px;
+    line-height: 41.5px;
+    text-align: left;
+    color: rgba(93, 93, 125, 1);
+    width: 60px;
+    cursor: pointer;
+}
+
+h1{
+    font-size: 70px;
+    line-height: 80px;
+    color:  #5D5D7D;
+    width: 450px;
+
+}
+
+p{
+
+    font-size: 28px;
+    line-height: 48px;
+    opacity: 60%;
+    margin: 15px 0;
+    width: 540px;
+
+}
+
+button{
+    width: 269px;
+    height: 62px;
+    background: rgba(148, 153, 234, 1);
+    font-size: 24px;
+    line-height: 35.57px;
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+   
+}
+
+button:hover{
+    opacity: 0.8;
+}
+button:active{
+    opacity: .5;
+}
+
+.link-header:active{
+    opacity: 40%;
+}
+
+@media screen and (max-width: 900px) {
+    .bloco-esquerdo {
+        width: 100%;
+        padding: 15px;
+        margin: 0;
+        height: auto;
+        top: 0; 
+ 
+
+
+       
+    }
+    .bloco-direito {
+        display: block;
+        height: 50%;
+        position: static;
+        width: 100%;
+        padding: 40px;
+        
+    }
+    img {
+        position: static;
+        max-width: 90%;
+        
+
+
+    }
+    header{
+        display: none;
+    }
+    
+    h1{
+        font-size: 36px;
+        line-height: 52px;
+        width: 75%;
+        margin: 58px 50px 0 50px; 
+        text-align: center; 
+    }
+
+    p{
+        margin: 15px 50px; 
+        width: auto;
+        text-align: center;
+        font-size: 14px;
+        line-height: 24px;
+
+    }
+
+    button {
+        margin: 0 50px; 
+        display: block;
+        height: 75%
+        ;
+        
+        
+
+
+    }
+
+
+
+}
